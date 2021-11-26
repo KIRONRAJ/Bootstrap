@@ -7,33 +7,73 @@
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.form-body {
+a {
+  color: #4b8ed9;
+}
+
+.header {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.form {
   margin: auto;
   width: 340px;
-  border: solid 1px black;
+  border: solid 1px #161b22;
   background-color: #161b22;
   padding: 20px;
-  margin-top: 16px;
+  margin-top: 6px;
   margin-bottom: 15px;
   box-sizing: border-box;
   border-radius: 6px;
-}
-.form-header {
-  text-align: center;
-  font-size: 24px;
-  font-weight: 300;
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
 }
 
-.btn{
+.form-group {
+  background-color: #161b22;
+  
+}
+
+input[type="email"], input[type="password"] {
+  
+  background-color: #0d1117;
+  padding: 5px;
+}
+
+.form .txt {
+  background-color: #161b22;
+}
+
+.btn {
   display: block;
   width: 100%;
   margin-top: 20px;
 }
-.form label {
-  text-align: left;
-  background-color: transparent;
+
+.signup {
+  border: solid 2px #2b3138;
+  margin: auto;
+  width: 340px;
+  border-radius: 6px;
+}
+
+.list {
+  list-style: none;
+  font-size: 12px;
+  padding-top: 50px;
+}
+
+.list li {
+  display: inline;
+  padding: 5px;
+}
+
+.fpwd {
+  position: absolute;
+  margin-left: 8rem;
 }
